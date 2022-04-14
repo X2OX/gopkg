@@ -1,0 +1,32 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-go@v2
+      with: 
+        go-version: 1.18.x
+    - run: go version
+    - name: Install GOMOD
+      run: |
+        git clone https://github.com/FlowerLab/sorbifolia &&
+        cd sorbifolia &&
+        go install go.x2ox.com/sorbifolia/gomod/gomod
+    - name: Build
+      run: gomod
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: go.x2ox.com
+        cname: go.x2ox.com
+        keep_files: true
