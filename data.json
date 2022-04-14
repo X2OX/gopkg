@@ -6,17 +6,17 @@
   },
   {
 	"repo_url": "https://github.com/x2ox/bencode",
-	"branch": "master",
+	"branch": "main",
 	"cdn": true
   },
   {
 	"repo_url": "https://github.com/x2ox/hitokoto",
-	"branch": "master",
+	"branch": "main",
 	"cdn": true
   },
   {
 	"repo_url": "https://github.com/x2ox/tea",
-	"branch": "master",
+	"branch": "main",
 	"cdn": true
   },
   {
