@@ -19,7 +19,7 @@ jobs:
     - name: Install GOMOD
       run: |
         git clone https://github.com/FlowerLab/sorbifolia &&
-        cd sorbifolia &&
+        cd sorbifolia/gomod &&
         go install go.x2ox.com/sorbifolia/gomod/gomod
     - name: Build
       run: gomod
