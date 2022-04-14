@@ -1,0 +1,32 @@
+[
+  {
+	"repo_url": "https://github.com/FlowerLab/blackdatura",
+	"branch": "master",
+	"cdn": true
+  },
+  {
+	"repo_url": "https://github.com/x2ox/bencode",
+	"branch": "master",
+	"cdn": true
+  },
+  {
+	"repo_url": "https://github.com/x2ox/hitokoto",
+	"branch": "master",
+	"cdn": true
+  },
+  {
+	"repo_url": "https://github.com/x2ox/tea",
+	"branch": "master",
+	"cdn": true
+  },
+  {
+	"repo_url": "https://github.com/x2ox/utils",
+	"branch": "main",
+	"cdn": true
+  },
+  {
+	"repo_url": "https://github.com/FlowerLab/sorbifolia",
+	"branch": "main",
+	"cdn": true
+  }
+]
