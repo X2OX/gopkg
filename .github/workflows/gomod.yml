@@ -3,7 +3,6 @@ name: GOMOD Build CI
 on:
   push:
     branches: [ main ]
-  pull_request:
   schedule:
     - cron: "20 22 * * *"
 
