@@ -20,7 +20,10 @@ jobs:
       - name: Install GOMOD
         run: go install go.x2ox.com/sorbifolia/gomod/gomod@latest
       - name: Build
-        run: gomod
+        run: gomod -f data.json
+      - name: Add public resource
+        run: |
+          cp -r public/* go.x2ox.com
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
