@@ -24,6 +24,11 @@ jobs:
       - name: Add public resource
         run: |
           cp -r public/* go.x2ox.com
+      - name: Install Sitemap Generator
+        run: go install go.x2ox.com/sorbifolia/sitemap/sitemap-generator@v0.0.0-20220420102858-f1db7131b5a2
+      - name: Generate Sitemap
+        run: |
+          sitemap-generator -f sitemap.config.json
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
