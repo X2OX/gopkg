@@ -28,5 +28,10 @@
 	"repo_url": "https://github.com/FlowerLab/sorbifolia",
 	"branch": "main",
 	"cdn": true
-  }
+  },
+  {
+	"repo_url": "https://github.com/x2ox/qqwry",
+	"branch": "main",
+	"cdn": true
+  }	
 ]
