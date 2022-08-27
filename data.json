@@ -38,5 +38,10 @@
 	"repo_url": "https://github.com/x2ox/qqwry",
 	"branch": "main",
 	"cdn": true
-  }	
+  },
+  {
+	"repo_url": "https://github.com/x2ox/THz",
+	"branch": "main",
+	"cdn": true
+  }
 ]
